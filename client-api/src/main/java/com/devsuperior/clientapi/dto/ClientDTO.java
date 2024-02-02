@@ -1,16 +1,26 @@
 package com.devsuperior.clientapi.dto;
 
 import com.devsuperior.clientapi.entities.Client;
+import jakarta.validation.constraints.*;
 
 import java.time.LocalDate;
 
 public class ClientDTO {
 
     private Long id;
+
+    @Size(min = 3, max = 80, message = "Nome precisa ter de 3 a 80 caracteres")
+    @NotBlank(message = "Campo requerido")
     private String name;
     private String cpf;
+
+    @Positive(message = "O valor do rendimento deve ser positivo")
     private Double income;
+
+    @PastOrPresent(message = "Data de nascimento inválida")
     private LocalDate birthDate;
+
+    @PositiveOrZero
     private Integer children;
 
     public ClientDTO(Long id, String name, String cpf, Double income, LocalDate birthDate, Integer children) {
