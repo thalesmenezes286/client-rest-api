@@ -12,6 +12,8 @@ public class ClientDTO {
     @Size(min = 3, max = 80, message = "Nome precisa ter de 3 a 80 caracteres")
     @NotBlank(message = "Campo requerido")
     private String name;
+
+    @NotBlank(message = "Campo requerido")
     private String cpf;
 
     @Positive(message = "O valor do rendimento deve ser positivo")

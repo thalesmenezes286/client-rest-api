@@ -1,3 +1,10 @@
-INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('José da Silva Chavier','89902015000',1890.50,'1948-07-02',8);
+INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('José da Silva Chavier','89902015000',1890.50,'1948-07-02',6);
 INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Maria da Conceição','28577310000',1590.50,'1959-08-05',5);
 INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Marta da Fonseca','59386917025',1390.50,'1964-07-06',2);
+INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Moreira Sales','06318023046',1390.50,'1980-07-06',2);
+INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Morgan Freire','47025456047',2390.50,'1974-06-06',4);
+INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Emanuel Gomes','43479950086',4340.50,'1985-01-06',2);
+INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Rita Marta','23978406004',5390.50,'1964-07-06',2);
+INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Julio Cesar','38880986023',8397.50,'1988-12-25',0);
+INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Vinicius de Moraes','34403804080',6390.50,'1964-07-06',0);
+INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Tomas Jeferson','33095023090',3340.50,'1964-07-06',0);
