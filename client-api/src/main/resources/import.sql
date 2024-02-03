@@ -8,3 +8,5 @@ INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Rita Marta',
 INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Julio Cesar','38880986023',8397.50,'1988-12-25',0);
 INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Vinicius de Moraes','34403804080',6390.50,'1964-07-06',0);
 INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Tomas Jeferson','33095023090',3340.50,'1964-07-06',0);
+INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Atnônio da Cunha Neto','60239347064',4540.78,'1948-10-20',2);
+INSERT INTO TB_CLIENT(name,cpf,income,birth_date,children) VALUES ('Barbara Salgado Menezes','93966686058',8540.78,'1956-10-23',2);
